@@ -1,0 +1,28 @@
+{
+  "name": "@xiaoxia/dsh-preset-standard-zh",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "dsh": {
+    "bundle": {
+      "patch": "./presets/standard-zh.patch.yml"
+    }
+  },
+  "exports": {
+    "./zh-prompt": "./zh-prompt.js",
+    "./zh-tools": "./zh-tools.js",
+    "./zh-tools-data": "./zh-tools-data.js",
+    "./zh-directives": "./zh-directives.js"
+  },
+  "description": "DSH standard 预设的中文版：系统提示、34 个默认工具说明为中文，并带最前置基调与每轮开工提醒",
+  "files": [
+    "presets/",
+    "locale/",
+    "zh-prompt.js",
+    "zh-tools.js",
+    "zh-tools-data.js",
+    "zh-directives.js",
+    "插件说明.md",
+    "README.md"
+  ]
+}
